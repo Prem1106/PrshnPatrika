@@ -1,0 +1,191 @@
+.register-photo {
+  background: none;
+  padding: 80px 0;
+}
+
+.register-photo .image-holder {
+  display: table-cell;
+  width: auto;
+  background: #009846;
+  background-size: cover;
+  border-radius: 15px 0 0 15px;
+}
+
+.register-photo .form-container {
+  display: table;
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  border-radius: 15px;
+}
+
+.register-photo form {
+  display: table-cell;
+  width: 400px;
+  background-color: #f8f8e5;
+  padding: 40px 60px;
+  color: #505e6c;
+  border-radius: 0 15px 15px 0;
+}
+
+@media (max-width:991px) {
+  .register-photo form {
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #009846;
+    color: #f8f8e5;
+  }
+
+  .form-group{
+    color: #5b5a50;
+  }
+
+  .already{
+    color: #f8f8e5 !important;
+  }
+
+  .btn-primary{
+    background-color: #f8f8e5 !important;
+    color: #5b5a50 !important;
+  }
+
+  .register-photo .image-holder{
+    display: none;
+  }
+
+  .image-holder h1{
+    display: none;
+  }
+
+  .image-holder div{
+    display: none;
+  }
+}
+
+.register-photo form h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.register-photo form .form-control {
+  background: #f7f9fc;
+  border: none;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 6px;
+  height: 40px;
+}
+
+.register-photo form .form-check {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.register-photo form .btn-primary {
+  background: #5b5a50;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 35px;
+  text-shadow: none;
+  outline: none !important;
+}
+
+.register-photo form .btn-primary:hover, .register-photo form .btn-primary:active {
+  background: #5a5a5a;
+}
+
+.register-photo form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.register-photo form .already {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.h1, h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: #f8f8e5;
+  width: 80%;
+  transform: translate(10%,10%);
+}
+
+strong#head::before{
+  content: "";
+  animation: animate1 15s infinite;
+  
+}
+
+p#para::before{
+  content:"";
+  animation: animate2 15s infinite;
+}
+
+@keyframes animate1 {
+  0%{
+    content:"What is પ્રશ્ન પત્રિકા ?";
+  }
+
+  50%{
+    content:"Why to use પ્રશ્ન પત્રિકા ?";
+  }
+
+  100%{
+    content:"How to use પ્રશ્ન પત્રિકા ?";
+  }
+  
+}
+
+@keyframes animate2 {
+  0%{
+    content:"પ્રશ્ન પત્રિકા is your A.I. study mate which helps you to find the solutions to each and every question of yours regarding to your academics and it also provides all thematerial related to your area of interest for each and every subject. Just ask!!";
+  }
+
+  50%{
+    content:"On internet there are many resources where you can find all solutions but you have to scroll down through many sites and articles for that one particular answer, but here just ask!! to પ્રશ્નપત્રિકા, you’ll get your answer.";
+  }
+
+  100%{
+    content:"It’s very simple to use it, First you’ll have to sign up, after that you’ll be navigated to your study Mate!!, and then you’ll have to do is type in your question , it will give you specific answer related to it.";
+  }
+  
+}
+
+#div1{
+  animation: fadeOut 5s infinite;
+}
+
+@keyframes fadeOut {
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 0.5;
+  }
+  50%{
+    opacity: 1;
+  }
+  75%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 0;
+  }
+  
+}
+
